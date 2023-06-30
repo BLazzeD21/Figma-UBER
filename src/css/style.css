@@ -6,9 +6,13 @@ header {
     position: relative;
 }
 nav {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 50px;
     background-color: #212121;
-
 }
 
 .menu {
@@ -17,7 +21,6 @@ nav {
     padding: 13px 70px;
     margin: 0;
     list-style-type: none;
-    
 }
 
 .menu .menu_link {
@@ -34,6 +37,7 @@ nav {
 
 .subheader {
     position: absolute;
+    top: 50px;
     width: 100%;
     height: 87px;
     background-color: rgba(0, 0, 0, 0.6);
@@ -86,7 +90,7 @@ nav {
 .promo {
     color: #FFF;
     text-align: center;
-    padding: 155px 0 185px 0;
+    padding: 205px 0 185px 0;
     min-height: 800px;
     background: url('../img/background/promo_bg.png') center center/cover no-repeat;
 }
