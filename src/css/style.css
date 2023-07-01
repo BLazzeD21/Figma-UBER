@@ -177,8 +177,7 @@ nav {
 
 .reasons .reason_box .reason_content {
     margin-left: 25px;
-    min-width: 341px;
-    max-width: 371px;
+    width: 400px;
     min-height: 151px;
 }
 
