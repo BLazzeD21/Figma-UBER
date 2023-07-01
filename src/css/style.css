@@ -129,3 +129,31 @@ nav {
     font-weight: 400;
     text-transform: uppercase;
 }
+
+.reasons {
+    background-color: #FFF;
+    height: 850px;
+    padding: 20px 0 67px 0;
+}
+
+.reasons .reasons_advantages {
+    padding-top: 5px;
+    margin: 0 auto;
+    width: 113px;
+    height: 24px;
+    background-color:black;
+    color: #FFF;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.reasons .eight_reasons {
+    margin-top: 30px;
+    color: #222;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
