@@ -1,3 +1,23 @@
+@mixin label($text-color, $background-color)
+    padding-top: 5px
+    margin: 0 auto
+    width: 113px
+    height: 24px
+    background-color: $background-color
+    color: $text-color
+    text-align: center
+    font-size: 11px
+    font-weight: 400
+    text-transform: uppercase
+    
+@mixin caption
+    margin-top: 30px
+    color: #222
+    text-align: center
+    font-size: 38px
+    font-weight: 700
+    text-transform: uppercase
+
 * 
     font-family: 'Roboto', sans-serif
 
@@ -125,24 +145,10 @@ nav
     padding: 20px 0 67px 0
 
     .reasons_advantages 
-        padding-top: 5px
-        margin: 0 auto
-        width: 113px
-        height: 24px
-        background-color: black
-        color: #FFF
-        text-align: center
-        font-size: 11px
-        font-weight: 400
-        text-transform: uppercase
+        @include label(#FFF, black)
 
     .eight_reasons 
-        margin-top: 30px
-        color: #222
-        text-align: center
-        font-size: 38px
-        font-weight: 700
-        text-transform: uppercase
+        @include caption
 
     .reason_box 
         margin-top: 20px
