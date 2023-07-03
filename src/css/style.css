@@ -262,6 +262,7 @@ nav {
   height: 29px;
   background-color: black;
   border-radius: 100%;
+  cursor: pointer;
 }
 .mobile_card .mobile_card_plus img {
   width: 55%;
