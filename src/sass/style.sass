@@ -11,7 +11,6 @@
     text-transform: uppercase
     
 @mixin caption
-    margin-top: 30px
     color: #222
     text-align: center
     font-size: 38px
@@ -144,10 +143,11 @@ nav
     min-height: 850px
     padding: 20px 0 67px 0
 
-    .reasons_advantages 
+    .reasons_advantages
         @include label(#FFF, black)
 
-    .eight_reasons 
+    .eight_reasons
+        margin-top: 30px
         @include caption
 
     .reason_box 
@@ -179,3 +179,66 @@ nav
                 color: #202020
                 font-size: 15px
                 font-weight: 400
+
+.mobile
+    min-height: 864px
+    padding-top: 48px
+    background: url('../img/background/mobile_bg.png') center center/cover no-repeat
+    .mobile_advantages
+        margin-top: 48px
+        @include label(#FFF, black)
+    .mobile_title
+        margin-top: 33px
+        color: #222
+        text-align: center
+        font-size: 38px
+        font-weight: 700
+        text-transform: uppercase
+    .mobile_subtitle
+        color: #222
+        text-align: center
+        font-size: 17px
+        font-weight: 400
+    .row
+        margin-top: 30px
+    &_card
+        position: relative
+        margin: 0 auto
+        margin-bottom: 19px
+        padding-top: 82px
+        width: 320px
+        height: 280px
+        .mobile_card_title
+                color: #FFF
+                text-align: center
+                font-size: 24px
+                font-weight: 400
+                text-transform: uppercase
+        .mobile_card_plus
+            position: absolute
+            left: 0
+            right: 0
+            bottom: 35px
+            margin: auto
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 29px
+            height: 29px
+            background-color: black
+            border-radius: 100%
+            img
+                width: 55%
+        &_1
+            background: url('../img/cards/card_1.png')
+        &_2
+            background: url('../img/cards/card_2.png')
+        &_3
+            background: url('../img/cards/card_3.png')
+        &_4
+            background: url('../img/cards/card_4.png')
+        &_5
+            background: url('../img/cards/card_5.png')
+        &_6
+            background: url('../img/cards/card_6.png')
+    
