@@ -1,3 +1,5 @@
+$color-blue: #1EACC7
+
 @mixin label($text-color, $background-color)
     padding-top: 5px
     margin: 0 auto
@@ -10,8 +12,8 @@
     font-weight: 400
     text-transform: uppercase
     
-@mixin caption
-    color: #222
+@mixin caption($text-color)
+    color: $text-color
     text-align: center
     font-size: 38px
     font-weight: 700
@@ -148,7 +150,7 @@ nav
 
     .eight_reasons
         margin-top: 30px
-        @include caption
+        @include caption(#222)
 
     .reason_box 
         margin-top: 20px
@@ -163,7 +165,7 @@ nav
             border-radius: 100%
             width: 116px
             height: 116px
-            background-color: #1EACC7
+            background-color: $color-blue
 
         .reason_content 
             margin-left: 25px
@@ -171,7 +173,7 @@ nav
             min-height: 151px
 
             .reason_title 
-                color: #1EACC7
+                color: $color-blue
                 font-size: 17px
                 font-weight: 400
 
@@ -189,11 +191,7 @@ nav
         @include label(#FFF, black)
     .mobile_title
         margin-top: 33px
-        color: #222
-        text-align: center
-        font-size: 38px
-        font-weight: 700
-        text-transform: uppercase
+        @include caption(#222)
     .mobile_subtitle
         color: #222
         text-align: center
@@ -242,4 +240,38 @@ nav
             background: url('../img/cards/card_5.png')
         &_6
             background: url('../img/cards/card_6.png')
-    
+
+.uberX
+    padding-top: 59px
+    background-color: #070716
+    height: 502px
+    .uberX_advantages
+        @include label(black,#FFF)
+    .uberX_title
+        margin-top: 27px
+        @include caption(#FFF)
+    .uberX_subtitle
+        color: #FFF
+        text-align: center
+        font-size: 17px
+        font-weight: 400
+    &_car
+        position: relative
+        height: 397px
+        background: url('../img/background/car_bg.png') center center/cover no-repeat
+        .uberX_img
+            top: -268px
+            position: absolute
+            left:50%
+            transform: translateX(-50%)
+        .uberX_img_text
+            left:50%
+            transform: translateX(-50%)
+            width: 400px
+            position: absolute
+            top: 210px
+            color: #222
+            text-align: center
+            font-size: 17px
+            font-weight: 300
+

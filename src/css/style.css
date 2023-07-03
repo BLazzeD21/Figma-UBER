@@ -284,4 +284,60 @@ nav {
 }
 .mobile_card_6 {
   background: url("../img/cards/card_6.png");
+}
+
+.uberX {
+  padding-top: 59px;
+  background-color: #070716;
+  height: 502px;
+}
+.uberX .uberX_advantages {
+  padding-top: 5px;
+  margin: 0 auto;
+  width: 113px;
+  height: 24px;
+  background-color: #FFF;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.uberX .uberX_title {
+  margin-top: 27px;
+  color: #FFF;
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.uberX .uberX_subtitle {
+  color: #FFF;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+}
+.uberX_car {
+  position: relative;
+  height: 397px;
+  background: url("../img/background/car_bg.png") center center/cover no-repeat;
+}
+.uberX_car .uberX_img {
+  top: -268px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.uberX_car .uberX_img_text {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 400px;
+  position: absolute;
+  top: 210px;
+  color: #222;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */
