@@ -440,4 +440,56 @@ nav {
 }
 .require .red .require_list li:before {
   background: url("../icons/checks/red_check.png") center center/cover no-repeat;
+}
+
+.map {
+  position: relative;
+  min-height: 717px;
+  padding: 49px 0;
+  background: url("../img/background/world_bg.png") center;
+}
+.map_label {
+  padding-top: 5px;
+  margin: 0 auto;
+  width: 113px;
+  height: 24px;
+  background-color: #FFF;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  width: 75px;
+}
+.map_title {
+  margin-top: 26px;
+  color: #FFF;
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.map_subtitle {
+  color: #FFF;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+}
+.map_link {
+  position: absolute;
+  bottom: 21.5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #1FBAD6;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+.map_link:hover {
+  color: #FFF;
 }/*# sourceMappingURL=style.css.map */
