@@ -86,6 +86,10 @@ nav {
   -webkit-box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.12) inset;
           box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.12) inset;
 }
+.subheader .subheader_btn:hover {
+  background-image: none;
+  background-color: #1EACC7;
+}
 
 .promo {
   color: #FFF;
@@ -125,6 +129,10 @@ nav {
   font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
+}
+.promo .promo_btn:hover {
+  background-image: none;
+  background-color: #1EACC7;
 }
 
 .reasons {

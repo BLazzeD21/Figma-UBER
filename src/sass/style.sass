@@ -19,6 +19,12 @@ $color-blue: #1EACC7
     font-weight: 700
     text-transform: uppercase
 
+@mixin btn_hover
+    &:hover
+        background-image: none
+        background-color: $color-blue
+
+
 * 
     font-family: 'Roboto', sans-serif
 
@@ -99,6 +105,7 @@ nav
         border: none
         background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
         box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.12) inset
+        @include btn_hover
 
 
 .promo 
@@ -138,6 +145,7 @@ nav
         font-size: 18px
         font-weight: 400
         text-transform: uppercase
+        @include btn_hover
 
 
 .reasons 
