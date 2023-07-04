@@ -1,5 +1,6 @@
 $color-blue: #1EACC7
 
+
 @mixin label($text-color, $background-color)
     padding-top: 5px
     margin: 0 auto
@@ -234,8 +235,27 @@ nav
             background-color: black
             border-radius: 100%
             cursor: pointer
-            img
-                width: 55%
+            &:before
+                content: ''
+                display: block
+                width: 14px
+                height: 2px
+                background-color: $color-blue
+                transition: 0.3s all
+            &:after
+                content: ''
+                position: absolute
+                left: 50%
+                transform: translateX(-50%)
+                display: block
+                width: 2px
+                height: 14px
+                background-color: $color-blue
+                transition: 0.3s all
+            &:hover
+                &:before, &:after
+                    background-color: white
+                
         &_1
             background: url('../img/cards/card_1.png')
         &_2
