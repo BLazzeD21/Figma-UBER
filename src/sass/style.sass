@@ -25,6 +25,10 @@ $color-red:  #FF5656
 		background-image: none
 		background-color: $color-blue
 
+@mixin animation($animation-color)
+	transition: 0.5s all
+	&:hover
+		color: $animation-color
 
 * 
 	font-family: 'Roboto', sans-serif
@@ -392,6 +396,69 @@ footer
 			width: 301px
 			height: 7px
 			background-color: $color-blue
+		&_box
+			display: flex
+			justify-content: space-between
+			&_social
+				margin-right: 148px
+				margin-top: 28px
+				width: 152px
+				display: flex
+				justify-content: space-between
+				.social_item
+					display: flex
+					flex-wrap: wrap
+					justify-content: center
+					align-content: center
+					width: 35px
+					height: 35px
+					background-color: #070716
+					border-radius: 100%
+					a
+						color: white
+						
+
+			&_links
+				margin-top: 26px
+				a
+					text-decoration: none
+				.links_main
+					margin: 0 auto
+					width: 330px
+					display: flex
+					justify-content: space-between
+					.links_main_text
+						text-align: center
+						color: #070716
+						font-size: 15px
+						font-weight: 300
+						text-transform: uppercase
+						@include animation($color-blue)
+				.links_secondary
+					margin: 0 auto
+					margin-top: 10px
+					width: 400px
+					display: flex
+					justify-content: space-between
+					.links_secondary_text
+						text-align: center
+						color: #999
+						font-size: 11px
+						font-weight: 300
+						text-transform: uppercase
+						@include animation($color-blue)
+				.links_language
+					margin-top: 7px
+					color: #1FBAD6
+					text-align: center
+					font-size: 11px
+					font-weight: 400
+					text-transform: uppercase
+					@include animation(black)
+			&_download
+				margin-top: 28px
+				width: 300px
+				display: flex
 		
 		
 		

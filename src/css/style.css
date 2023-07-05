@@ -503,4 +503,113 @@ footer .footer_divider {
   width: 301px;
   height: 7px;
   background-color: #1EACC7;
+}
+footer .footer_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .footer_box_social {
+  margin-right: 148px;
+  margin-top: 28px;
+  width: 152px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .footer_box_social .social_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 35px;
+  height: 35px;
+  background-color: #070716;
+  border-radius: 100%;
+}
+footer .footer_box_social .social_item a {
+  color: white;
+}
+footer .footer_box_links {
+  margin-top: 26px;
+}
+footer .footer_box_links a {
+  text-decoration: none;
+}
+footer .footer_box_links .links_main {
+  margin: 0 auto;
+  width: 330px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .footer_box_links .links_main .links_main_text {
+  text-align: center;
+  color: #070716;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+footer .footer_box_links .links_main .links_main_text:hover {
+  color: #1EACC7;
+}
+footer .footer_box_links .links_secondary {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .footer_box_links .links_secondary .links_secondary_text {
+  text-align: center;
+  color: #999;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+footer .footer_box_links .links_secondary .links_secondary_text:hover {
+  color: #1EACC7;
+}
+footer .footer_box_links .links_language {
+  margin-top: 7px;
+  color: #1FBAD6;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+footer .footer_box_links .links_language:hover {
+  color: black;
+}
+footer .footer_box_download {
+  margin-top: 28px;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
