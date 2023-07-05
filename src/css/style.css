@@ -492,4 +492,15 @@ nav {
 }
 .map_link:hover {
   color: #FFF;
+}
+
+footer {
+  padding: 12px 21px 37.5px 21px;
+  min-height: 156px;
+}
+footer .footer_divider {
+  margin: 0 auto;
+  width: 301px;
+  height: 7px;
+  background-color: #1EACC7;
 }/*# sourceMappingURL=style.css.map */
