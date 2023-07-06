@@ -16,6 +16,10 @@ nav {
   background-color: #212121;
 }
 
+.hamburger {
+  display: none;
+}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -617,6 +621,10 @@ footer .footer_box_download {
   display: flex;
 }
 
+.xs-visible {
+  display: none;
+}
+
 @media (max-width: 1200px) {
   .menu .menu_item {
     padding-right: 20px;
@@ -705,5 +713,43 @@ footer .footer_box_download {
   }
   .menu .menu_link {
     font-size: 20px;
+  }
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 26px;
+  }
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #FFF;
+    margin-bottom: 2px;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+  }
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  .hamburger_active span:nth-child(1) {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  .hamburger_active span:nth-child(3) {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .xs-hidden {
+    display: none;
+  }
+  .xs-visible {
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */

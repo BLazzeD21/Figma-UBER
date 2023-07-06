@@ -63,6 +63,34 @@
 			margin: 10px 0
 		.menu_link
 			font-size: 20px
+	.hamburger
+		display: block
+		position: absolute
+		right: 10px
+		top: 50%
+		transform: translateY(-50%)
+		width: 26px
+		span
+			display: block
+			height: 2px
+			width: 100%
+			background-color: #FFF
+			margin-bottom: 2px
+			transition: 0.5s all
+		&_active
+			span
+				margin-bottom: -2px
+				&:nth-child(1)
+					transform: rotate(-45deg)
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					transform: rotate(45deg)
+	.xs-hidden
+		display: none
+	.xs-visible
+		display: block
+					
 			
 
 
