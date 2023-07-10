@@ -326,7 +326,10 @@ nav {
 .uberX {
   padding-top: 59px;
   background-color: #070716;
-  height: 502px;
+  min-height: 502px;
+}
+.uberX .uberX_mobile {
+  display: none;
 }
 .uberX .uberX_advantages {
   padding-top: 5px;
@@ -638,6 +641,13 @@ footer .footer_box_download {
   .reasons .reason_box .reason_content {
     width: 300px;
   }
+  .mobile_card {
+    width: 270px;
+    height: 234px;
+  }
+  .mobile_card .mobile_card_title {
+    font-size: 16px;
+  }
 }
 @media screen and (max-width: 991px) {
   .menu .menu_item {
@@ -683,6 +693,18 @@ footer .footer_box_download {
   }
   .reasons .reason_box .reason_content .reason_text {
     margin-top: 5px;
+  }
+  .uberX {
+    min-height: 402px;
+  }
+  .uberX_car .uberX_img {
+    top: -177px;
+  }
+  .uberX_car .uberX_img img {
+    height: 357px;
+  }
+  .uberX_car .uberX_img_text {
+    top: 189px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -778,6 +800,21 @@ footer .footer_box_download {
   .promo .promo_subheader {
     font-size: 30px;
   }
+  .uberX {
+    min-height: 402px;
+  }
+  .uberX .uberX_title {
+    font-size: 30px;
+  }
+  .uberX_car .uberX_img {
+    top: -107px;
+  }
+  .uberX_car .uberX_img img {
+    height: 300px;
+  }
+  .uberX_car .uberX_img_text {
+    top: 189px;
+  }
 }
 @media screen and (max-width: 575px) {
   nav {
@@ -867,8 +904,31 @@ footer .footer_box_download {
   .mobile_card .mobile_card_title {
     font-size: 18px;
   }
+  .uberX {
+    height: 393px;
+    padding-top: 26px;
+  }
+  .uberX .uberX_title, .uberX .uberX_subtitle {
+    display: none;
+  }
+  .uberX_car {
+    height: 0px;
+    background-color: #070716;
+  }
+  .uberX_car .uberX_img {
+    top: -307px;
+  }
+  .uberX_car .uberX_img img {
+    height: 190px;
+  }
+  .uberX_car .uberX_img_text {
+    width: 300px;
+    font-size: 16px;
+    color: #FFF;
+    top: -100px;
+  }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 319px) {
   .reasons .reason_box {
     margin-top: 24px;
   }
@@ -892,5 +952,21 @@ footer .footer_box_download {
   }
   .mobile_card .mobile_card_title {
     font-size: 18px;
+  }
+  .uberX_car {
+    height: 0px;
+    background-color: #070716;
+  }
+  .uberX_car .uberX_img {
+    top: -307px;
+  }
+  .uberX_car .uberX_img img {
+    height: 160px;
+  }
+  .uberX_car .uberX_img_text {
+    width: 250px;
+    font-size: 14px;
+    color: #FFF;
+    top: -100px;
   }
 }/*# sourceMappingURL=style.css.map */
