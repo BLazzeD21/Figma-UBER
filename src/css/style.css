@@ -706,6 +706,22 @@ footer .footer_box_download {
   .uberX_car .uberX_img_text {
     top: 189px;
   }
+  .require {
+    padding-top: 40px;
+  }
+  .require .require_conditions {
+    font-size: 30px;
+  }
+  .require_title {
+    font-size: 18px;
+  }
+  .require_list li {
+    font-size: 16px;
+    margin-bottom: 7px;
+  }
+  .require_descr {
+    font-size: 16px;
+  }
 }
 @media screen and (max-width: 767px) {
   .menu {
@@ -814,6 +830,22 @@ footer .footer_box_download {
   }
   .uberX_car .uberX_img_text {
     top: 189px;
+  }
+  .require {
+    padding-top: 40px;
+  }
+  .require .require_conditions {
+    font-size: 30px;
+  }
+  .require_title {
+    font-size: 18px;
+  }
+  .require_list li {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  .require_descr {
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 575px) {
@@ -927,6 +959,26 @@ footer .footer_box_download {
     color: #FFF;
     top: -100px;
   }
+  .require {
+    padding-top: 20px;
+  }
+  .require .require_conditions {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .require_title {
+    font-size: 16px;
+  }
+  .require_list {
+    padding-left: 30px;
+  }
+  .require_list li {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  .require_descr {
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 319px) {
   .reasons .reason_box {
@@ -968,5 +1020,14 @@ footer .footer_box_download {
     font-size: 14px;
     color: #FFF;
     top: -100px;
+  }
+  .require_title {
+    font-size: 14px;
+  }
+  .require_list li {
+    font-size: 13px;
+  }
+  .require_descr {
+    font-size: 13px;
   }
 }/*# sourceMappingURL=style.css.map */
