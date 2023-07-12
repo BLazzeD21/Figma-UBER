@@ -852,6 +852,13 @@ footer .footer_box_download {
   nav {
     height: 30px;
   }
+  .menu .menu_item {
+    width: 100%;
+    text-align: center;
+  }
+  .menu .menu_link {
+    display: block;
+  }
   .subheader {
     height: 60px;
     top: 30px;
