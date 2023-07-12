@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/BLazzeD21/Figma-UBER/issues"
   },
-  "homepage": "https://github.com/BLazzeD21/Figma-UBER#readme"
+  "homepage": "https://github.com/BLazzeD21/Figma-UBER#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
