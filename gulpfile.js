@@ -5,12 +5,13 @@ const rename = require("gulp-rename");
 const autoprefixer = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
 
+
 // Static server
 gulp.task('server', function() {
 		browserSync.init({
-				server: {
-					baseDir: "src"
-				}
+			server: {
+				baseDir: "src"
+			}
 		});
 });
 
@@ -35,5 +36,4 @@ gulp.task('watch', function(){
 	gulp.watch("src/*.html").on("change", browserSync.reload);
 });
 
-gulp.task('default', gulp.parallel('watch', 'server', 'styles'));
-
+gulp.task('default', gulp.parallel('styles', 'watch', 'server'));
