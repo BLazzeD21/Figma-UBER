@@ -37,3 +37,4 @@ gulp.task('watch', function(){
 });
 
 gulp.task('default', gulp.parallel('styles', 'watch', 'server'));
+gulp.task('start', gulp.parallel('styles', 'watch', 'server'));
