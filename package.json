@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/BLazzeD21/Figma-UBER#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^3.9.1",
+    "gulp-sass": "^5.1.0"
   }
 }
