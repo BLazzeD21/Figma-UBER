@@ -18,6 +18,8 @@
   "homepage": "https://github.com/BLazzeD21/Figma-UBER#readme",
   "devDependencies": {
     "browser-sync": "^2.29.3",
+    "eslint": "^8.44.0",
+    "eslint-config-google": "^0.14.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
