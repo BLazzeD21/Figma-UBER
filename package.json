@@ -1,0 +1,19 @@
+{
+  "name": "uber",
+  "version": "1.0.0",
+  "description": "Uber compamy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BLazzeD21/Figma-UBER.git"
+  },
+  "author": "Sekerin A.I.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BLazzeD21/Figma-UBER/issues"
+  },
+  "homepage": "https://github.com/BLazzeD21/Figma-UBER#readme"
+}
